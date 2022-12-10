@@ -1,0 +1,62 @@
+.header, .image-container, .btn {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    width: 30%;
+    padding: 30px;
+    background-color: #ffddee;
+    border-radius: 20px;
+    opacity: 0.95;
+    position: fixed;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2021/05/25/12/45/pineapple-6282367__480.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    }
+
+h2, h1 {
+    font-family: 'Varela', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: purple;
+    text-align: center;
+}
+
+#one, #two, #three, #back {
+    padding: 10px;
+    color: purple;
+    font-family: 'Varela', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, purple 100%);
+    border: 0;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #ffddee;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  }
+
+@media all and (max-width: 800px) {
+    .main {
+        margin-top: 100px;
+        margin-left: 20px;
+        width: 70%;
+    }
+} 
